@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "name": "Publication"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hyperlink": {
+      "type": "string"
+    },
+    "documentUrl": {
+      "type": "string"
+    }
+  }
+}
